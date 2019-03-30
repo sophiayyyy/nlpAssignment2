@@ -1,0 +1,177 @@
+Computing term document matrix...
+td_matrix is : [[0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 1. 0. 0.]
+ [0. 5. 0. ... 1. 0. 0.]
+ ...
+ [0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]
+ [1. 0. 0. ... 0. 0. 0.]]
+Computing term context matrix...
+tc_matrix is : [[ 1.  0.  0. ...  0.  0.  0.]
+ [ 0. 10.  0. ...  0.  0.  0.]
+ [ 0.  0. 47. ...  0.  0.  0.]
+ ...
+ [ 0.  0.  0. ...  1.  0.  0.]
+ [ 0.  0.  0. ...  0.  1.  0.]
+ [ 0.  0.  0. ...  0.  0. 23.]]
+Computing tf-idf matrix...
+tf_idf_matrix is : [[ 1.  0.  0. ...  0.  0.  0.]
+ [ 0. 10.  0. ...  0.  0.  0.]
+ [ 0.  0. 47. ...  0.  0.  0.]
+ ...
+ [ 0.  0.  0. ...  1.  0.  0.]
+ [ 0.  0.  0. ...  0.  1.  0.]
+ [ 0.  0.  0. ...  0.  0. 23.]]
+
+The top most similar plays to "Merchant of Venice" using compute_cosine_similarity are:
+1: As you like it
+
+The top most similar plays to "Merchant of Venice" using compute_jaccard_similarity are:
+1: As you like it
+
+The top most similar plays to "Merchant of Venice" using compute_dice_similarity are:
+1: As you like it
+
+The 10 most similar words to "juliet" using compute_cosine_similarity on term-document frequency matrix are:
+1: capulet
+2: snowy
+3: undraws
+4: easter
+5: gadding
+6: quivers
+7: misadventured
+8: absolver
+9: grubs
+10: indite
+
+The 10 most similar words to "juliet" using compute_jaccard_similarity on term-document frequency matrix are:
+1: tybalt
+2: capulet
+3: nurse
+4: romeo
+5: mercutio
+6: friar
+7: montague
+8: laurence
+9: paris
+10: peter
+
+The 10 most similar words to "juliet" using compute_dice_similarity on term-document frequency matrix are:
+1: tybalt
+2: capulet
+3: nurse
+4: romeo
+5: mercutio
+6: friar
+7: montague
+8: laurence
+9: paris
+10: peter
+
+The 10 most similar words to "juliet" using compute_cosine_similarity on term-context frequency matrix are:
+1: and
+2: drinkings
+3: pined
+4: scamble
+5: metheglins
+6: groaning
+7: cymbals
+8: bleated
+9: grunt
+10: clasping
+
+The 10 most similar words to "juliet" using compute_jaccard_similarity on term-context frequency matrix are:
+1: silvia
+2: nurse
+3: orlando
+4: proteus
+5: othello
+6: demetrius
+7: leonato
+8: hamlet
+9: marcus
+10: wake
+
+The 10 most similar words to "juliet" using compute_dice_similarity on term-context frequency matrix are:
+1: silvia
+2: nurse
+3: orlando
+4: proteus
+5: othello
+6: demetrius
+7: leonato
+8: hamlet
+9: marcus
+10: wake
+
+The 10 most similar words to "juliet" using compute_cosine_similarity on tf_idf_matrix matrix are:
+1: benedicite
+2: procures
+3: ghostly
+4: lucio
+5: potpan
+6: blubbering
+7: capel
+8: households
+9: switch
+10: misadventure
+
+The 10 most similar words to "juliet" using compute_jaccard_similarity on tf_idf_matrix matrix are:
+1: benvolio
+2: lucio
+3: mercutio
+4: capulet
+5: tybalt
+6: romeo
+7: capulets
+8: ghostly
+9: montagues
+10: procures
+
+The 10 most similar words to "juliet" using compute_dice_similarity on tf_idf_matrix matrix are:
+1: benvolio
+2: lucio
+3: mercutio
+4: capulet
+5: tybalt
+6: romeo
+7: capulets
+8: ghostly
+9: montagues
+10: procures
+
+The 10 most similar words to "juliet" using compute_cosine_similarity on PPMI matrix are:
+1: nurse
+2: tybalt
+3: capulet
+4: romeo
+5: mistress
+6: lady
+7: above
+8: provost
+9: re
+10: dead
+
+The 10 most similar words to "juliet" using compute_jaccard_similarity on PPMI matrix are:
+1: silvia
+2: nurse
+3: tybalt
+4: capulet
+5: proteus
+6: hamlet
+7: leonato
+8: orlando
+9: cassio
+10: romeo
+
+The 10 most similar words to "juliet" using compute_dice_similarity on PPMI matrix are:
+1: silvia
+2: nurse
+3: tybalt
+4: capulet
+5: proteus
+6: hamlet
+7: leonato
+8: orlando
+9: cassio
+10: romeo
